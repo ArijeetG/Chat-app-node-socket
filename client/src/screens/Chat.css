@@ -1,0 +1,41 @@
+.Chat-box {
+    border-radius: 25px;
+    background: #91f2cf;
+    padding: 20px;
+    width: 40vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.User-info-form {
+    width: 100%;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Chat-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+button {
+    background-color: #6b91cf;
+    color: white;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 10px;
+}
